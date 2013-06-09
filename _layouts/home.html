@@ -9,6 +9,8 @@
 	
 	<h1>Pages</h1>
 	
+	<p>Number of pages: {{ site.pages | size }}</p>
+	
 	{% for p in site.pages %}
 	  <p>{{ p.title }}</p>
 	{% endfor %}
